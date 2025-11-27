@@ -1,0 +1,22 @@
+{
+  "name": "synthetic-data-backend",
+  "version": "1.0.0",
+  "description": "Backend for SynDataGen - privacy report & generation endpoints",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "canvas": "*",
+    "chart.js": "*",
+    "chartjs-node-canvas": "*",
+    "cors": "*",
+    "express": "*",
+    "pdfkit": "*"
+  }
+}
